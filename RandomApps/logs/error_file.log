@@ -1,0 +1,3267 @@
+[16/Jun/2018:21:00:02] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  AUTHORIZATION: Basic am9uOnNlY3JldA==
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+[16/Jun/2018:21:00:02] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "test.py", line 85, in jsondecode
+    data = cherrypy.request.json
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/__init__.py", line 224, in __getattr__
+    return getattr(child, name)
+AttributeError: 'Request' object has no attribute 'json'
+[17/Jun/2018:11:39:59] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk <_io.TextIOWrapper name='/home/alion/Projekti/cherrypyTest/testinjola/test.html' mode='r' encoding='UTF-8'> is not of type 'bytes'.
+[17/Jun/2018:11:39:59] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+[17/Jun/2018:11:40:27] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk <_io.TextIOWrapper name='/home/alion/Projekti/cherrypyTest/testinjola/test.html' mode='r' encoding='UTF-8'> is not of type 'bytes'.
+[17/Jun/2018:11:40:27] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CACHE-CONTROL: max-age=0
+[17/Jun/2018:11:40:30] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk <_io.TextIOWrapper name='/home/alion/Projekti/cherrypyTest/testinjola/test.html' mode='r' encoding='UTF-8'> is not of type 'bytes'.
+[17/Jun/2018:11:40:30] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CACHE-CONTROL: max-age=0
+[17/Jun/2018:11:40:31] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk <_io.TextIOWrapper name='/home/alion/Projekti/cherrypyTest/testinjola/test.html' mode='r' encoding='UTF-8'> is not of type 'bytes'.
+[17/Jun/2018:11:40:31] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CACHE-CONTROL: max-age=0
+[18/Jun/2018:01:41:21] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 115, in penis
+    for v,j in test:
+ValueError: too many values to unpack (expected 2)
+[18/Jun/2018:01:41:21] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Remote-Addr: 127.0.0.1
+  REFERER: http://localhost:8080/broj/
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[18/Jun/2018:01:42:40] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk ('test', 'asdfafa') is not of type 'bytes'.
+[18/Jun/2018:01:42:40] HTTP 
+Request Headers:
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/broj/
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[18/Jun/2018:01:42:41] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk ('test', 'asdfafa') is not of type 'bytes'.
+[18/Jun/2018:01:42:41] HTTP 
+Request Headers:
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/broj/
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[18/Jun/2018:09:41:04] HTTP 
+Request Headers:
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[18/Jun/2018:09:41:04] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 82, in index
+    """, 3
+TypeError: Can't convert 'tuple' object to str implicitly
+[18/Jun/2018:10:41:09] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 123, in penis
+    return str(dictToMatrix(test))
+  File "python/test.py", line 8, in dictToMatrix
+    a = dict.items().sort(key=(lambda x: x[0]))
+AttributeError: 'dict_items' object has no attribute 'sort'
+[18/Jun/2018:10:41:09] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/broj/
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[18/Jun/2018:10:41:24] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/broj/
+  UPGRADE-INSECURE-REQUESTS: 1
+[18/Jun/2018:10:41:24] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 124, in penis
+    return str(dictToMatrix(test))
+  File "python/test.py", line 9, in dictToMatrix
+    a.sort(key=(lambda x: x[0]))
+AttributeError: 'dict_items' object has no attribute 'sort'
+[18/Jun/2018:10:53:52] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 147, in penis
+    a = dictToMatrix(test)
+  File "python/test.py", line 11, in dictToMatrix
+    return np.array(list(map(lambda x: float(x[1]), a)))
+  File "python/test.py", line 11, in <lambda>
+    return np.array(list(map(lambda x: float(x[1]), a)))
+TypeError: float() argument must be a string or a number, not 'list'
+[18/Jun/2018:10:53:52] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/broj/
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+[18/Jun/2018:10:53:53] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 147, in penis
+    a = dictToMatrix(test)
+  File "python/test.py", line 11, in dictToMatrix
+    return np.array(list(map(lambda x: float(x[1]), a)))
+  File "python/test.py", line 11, in <lambda>
+    return np.array(list(map(lambda x: float(x[1]), a)))
+TypeError: float() argument must be a string or a number, not 'list'
+[18/Jun/2018:10:53:53] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/broj/
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+[18/Jun/2018:10:55:32] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/broj/
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+[18/Jun/2018:10:55:32] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 147, in penis
+    a = dictToMatrix(test)
+  File "python/test.py", line 11, in dictToMatrix
+    return np.array(list(map(float, map(lambda x: x[1], a))))
+TypeError: float() argument must be a string or a number, not 'list'
+[18/Jun/2018:10:55:33] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/broj/
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+[18/Jun/2018:10:55:33] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 147, in penis
+    a = dictToMatrix(test)
+  File "python/test.py", line 11, in dictToMatrix
+    return np.array(list(map(float, map(lambda x: x[1], a))))
+TypeError: float() argument must be a string or a number, not 'list'
+[18/Jun/2018:10:58:09] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/broj/
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[18/Jun/2018:10:58:09] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "python/test.py", line 147, in penis
+    a = dictToMatrix(test)
+  File "python/test.py", line 11, in dictToMatrix
+    return np.array(list(map(lambda x: list(map(float, x[1])), a)))
+  File "python/test.py", line 11, in <lambda>
+    return np.array(list(map(lambda x: list(map(float, x[1])), a)))
+ValueError: could not convert string to float: 's'
+[23/Jun/2018:09:59:28] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  REFERER: http://localhost:8080/linez/
+[23/Jun/2018:09:59:28] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "test.py", line 146, in matrica
+    body += inputMatrix(m,n)
+  File "test.py", line 26, in inputMatrix
+    for i in range(m):
+TypeError: 'str' object cannot be interpreted as an integer
+[23/Jun/2018:11:08:56] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "test.py", line 148, in matrica
+    body += inputMatrix(int(n),int(m))
+ValueError: invalid literal for int() with base 10: 'e'
+[23/Jun/2018:11:08:56] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/linez/
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+[23/Jun/2018:18:42:30] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Remote-Addr: 127.0.0.1
+  REFERER: http://localhost:8080/linez/
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+[23/Jun/2018:18:42:30] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "test.py", line 154, in matrix
+    body += inputMatrix(int(n),int(m), vektori=True)
+  File "test.py", line 35, in inputMatrix
+    <input type="text" name="%s" style="width: 30px; height: 30px; %s text-align: center"/>""" % i, border# 1 px dotted grey"/>""" % i
+TypeError: not enough arguments for format string
+[23/Jun/2018:20:40:09] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/Linez.py", line 144, in testiraj_zavisnost
+    if a[j,:] == nula:
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+[23/Jun/2018:20:40:09] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/linez/matrix?n=5&m=5
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[23/Jun/2018:20:41:00] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  ACCEPT-ENCODING: gzip, deflate
+  Remote-Addr: 127.0.0.1
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/linez/matrix?n=5&m=5
+  UPGRADE-INSECURE-REQUESTS: 1
+[23/Jun/2018:20:41:00] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/Linez.py", line 144, in testiraj_zavisnost
+    if a[j,:].array_equal(nula):
+AttributeError: 'numpy.ndarray' object has no attribute 'array_equal'
+[23/Jun/2018:20:48:27] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[23/Jun/2018:20:48:27] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/Linez.py", line 145, in testiraj_zavisnost
+    if a[j,:].all(0.0):
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/_methods.py", line 41, in _all
+    return umr_all(a, axis, dtype, out, keepdims)
+TypeError: 'float' object cannot be interpreted as an integer
+[23/Jun/2018:20:49:33] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[23/Jun/2018:20:49:33] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/Linez.py", line 145, in testiraj_zavisnost
+    if np.all(a[j,:],0.0):
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 2098, in all
+    return arr.all(axis=axis, out=out, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/_methods.py", line 41, in _all
+    return umr_all(a, axis, dtype, out, keepdims)
+TypeError: 'float' object cannot be interpreted as an integer
+[23/Jun/2018:20:49:33] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[23/Jun/2018:20:49:33] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/Linez.py", line 145, in testiraj_zavisnost
+    if np.all(a[j,:],0.0):
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 2098, in all
+    return arr.all(axis=axis, out=out, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/_methods.py", line 41, in _all
+    return umr_all(a, axis, dtype, out, keepdims)
+TypeError: 'float' object cannot be interpreted as an integer
+[23/Jun/2018:22:40:48] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[23/Jun/2018:22:40:48] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/Linez.py", line 191, in nezavisnost
+    </div>""" % lin
+TypeError: not all arguments converted during string formatting
+[23/Jun/2018:22:40:49] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[23/Jun/2018:22:40:49] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/Linez.py", line 191, in nezavisnost
+    </div>""" % lin
+TypeError: not all arguments converted during string formatting
+[23/Jun/2018:22:56:50] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 182, in nezavisnost
+    lin, mat = me.testLinez(me.dictToMatrix(dictInput))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 2, in testLinez
+    n,m = a.shape
+AttributeError: 'str' object has no attribute 'shape'
+[23/Jun/2018:22:56:50] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CACHE-CONTROL: max-age=0
+[23/Jun/2018:22:56:51] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 182, in nezavisnost
+    lin, mat = me.testLinez(me.dictToMatrix(dictInput))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 2, in testLinez
+    n,m = a.shape
+AttributeError: 'str' object has no attribute 'shape'
+[23/Jun/2018:22:56:51] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CACHE-CONTROL: max-age=0
+[23/Jun/2018:22:57:59] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 182, in nezavisnost
+    lin, mat = me.testLinez(me.dictToMatrix(dictInput))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 2, in testLinez
+    n,m = a.shape
+AttributeError: 'str' object has no attribute 'shape'
+[23/Jun/2018:22:57:59] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[23/Jun/2018:23:00:46] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 186, in nezavisnost
+    lin, mat = me.testLinez(tmpmat)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 2, in testLinez
+    n,m = a.shape
+AttributeError: 'str' object has no attribute 'shape'
+[23/Jun/2018:23:00:46] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+[23/Jun/2018:23:00:47] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 186, in nezavisnost
+    lin, mat = me.testLinez(tmpmat)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 2, in testLinez
+    n,m = a.shape
+AttributeError: 'str' object has no attribute 'shape'
+[23/Jun/2018:23:00:47] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+[23/Jun/2018:23:08:29] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 186, in nezavisnost
+    lin, mat = me.testLinez(tmpmat)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 3, in testLinez
+    nula = np.zeros(shape=(1,m), dtype=a.dtype)
+NameError: name 'np' is not defined
+[23/Jun/2018:23:08:29] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  CACHE-CONTROL: max-age=0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+[23/Jun/2018:23:08:30] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 186, in nezavisnost
+    lin, mat = me.testLinez(tmpmat)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 3, in testLinez
+    nula = np.zeros(shape=(1,m), dtype=a.dtype)
+NameError: name 'np' is not defined
+[23/Jun/2018:23:08:30] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  CACHE-CONTROL: max-age=0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  REFERER: http://localhost:8080/linez/matrix?n=3&m=3
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+[24/Jun/2018:00:00:08] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/linez/matrix?n=5&m=3
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+[24/Jun/2018:00:00:08] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 79, in nezavisnost
+    lin, mat = me.testLinez(tmpmat)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 16, in testLinez
+    if np.all(a[:,i] == 0):
+IndexError: index 3 is out of bounds for axis 1 with size 3
+[24/Jun/2018:00:00:21] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/linez/matrix?n=5&m=3
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+[24/Jun/2018:00:00:21] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/linez.py", line 79, in nezavisnost
+    lin, mat = me.testLinez(tmpmat)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 16, in testLinez
+    if np.all(a[:,i] == 0):
+IndexError: index 3 is out of bounds for axis 1 with size 3
+[25/Jun/2018:14:18:25] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  CACHE-CONTROL: max-age=0
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+[25/Jun/2018:14:18:25] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 82, in svd
+    </div>""" % lin
+NameError: name 'lin' is not defined
+[25/Jun/2018:14:18:25] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  CACHE-CONTROL: max-age=0
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+[25/Jun/2018:14:18:25] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 82, in svd
+    </div>""" % lin
+NameError: name 'lin' is not defined
+[25/Jun/2018:14:18:40] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 84, in svd
+    body += outputMatrix(tmpmat)
+NameError: name 'outputMatrix' is not defined
+[25/Jun/2018:14:18:40] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+[25/Jun/2018:14:18:41] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 84, in svd
+    body += outputMatrix(tmpmat)
+NameError: name 'outputMatrix' is not defined
+[25/Jun/2018:14:18:41] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+[25/Jun/2018:14:18:51] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 84, in svd
+    body += pyth.outputMatrix(tmpmat)
+NameError: name 'outputMatrix' is not defined
+[25/Jun/2018:14:18:51] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+[25/Jun/2018:14:18:52] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 84, in svd
+    body += pyth.outputMatrix(tmpmat)
+NameError: name 'outputMatrix' is not defined
+[25/Jun/2018:14:18:52] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+[25/Jun/2018:14:30:20] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 88, in svd
+    body += pyth.outputMatrix(sv)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:14:30:20] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+[25/Jun/2018:14:30:21] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 88, in svd
+    body += pyth.outputMatrix(sv)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:14:30:21] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+[25/Jun/2018:14:45:31] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CONNECTION: keep-alive
+[25/Jun/2018:14:45:31] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 82, in svd
+    sig, V = np.linalg(tmpmat)
+TypeError: 'module' object is not callable
+[25/Jun/2018:14:45:43] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 82, in svd
+    sig, V = np.linalg.eig(tmpmat)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/linalg/linalg.py", line 1142, in eig
+    _assertNdSquareness(a)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/linalg/linalg.py", line 211, in _assertNdSquareness
+    raise LinAlgError('Last 2 dimensions of the array must be square')
+numpy.linalg.linalg.LinAlgError: Last 2 dimensions of the array must be square
+[25/Jun/2018:14:45:43] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  CACHE-CONTROL: max-age=0
+  CONNECTION: keep-alive
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  UPGRADE-INSECURE-REQUESTS: 1
+[25/Jun/2018:14:46:06] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 95, in svd
+    body += pyth.outputMatrix(sig)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:14:46:06] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:14:46:07] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 95, in svd
+    body += pyth.outputMatrix(sig)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:14:46:07] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:14:52:59] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[25/Jun/2018:14:52:59] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 83, in svd
+    test = np.random(3,1)
+TypeError: 'module' object is not callable
+[25/Jun/2018:14:53:12] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 83, in svd
+    test = np.random.random(3,1)
+  File "mtrand.pyx", line 819, in mtrand.RandomState.random_sample
+TypeError: random_sample() takes at most 1 positional argument (2 given)
+[25/Jun/2018:14:53:12] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[25/Jun/2018:14:53:12] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 83, in svd
+    test = np.random.random(3,1)
+  File "mtrand.pyx", line 819, in mtrand.RandomState.random_sample
+TypeError: random_sample() takes at most 1 positional argument (2 given)
+[25/Jun/2018:14:53:12] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[25/Jun/2018:14:53:28] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CONNECTION: keep-alive
+[25/Jun/2018:14:53:28] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 103, in svd
+    bodt += pyth.outputMatrix(test)
+UnboundLocalError: local variable 'bodt' referenced before assignment
+[25/Jun/2018:14:53:29] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  CONNECTION: keep-alive
+[25/Jun/2018:14:53:29] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 103, in svd
+    bodt += pyth.outputMatrix(test)
+UnboundLocalError: local variable 'bodt' referenced before assignment
+[25/Jun/2018:15:01:14] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CACHE-CONTROL: max-age=0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  Remote-Addr: 127.0.0.1
+[25/Jun/2018:15:01:14] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 115, in svd
+    body += pyth.outputMatrix(V.dot(sig).dot(V.T).dot(test))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:15:01:58] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 115, in svd
+    body += pyth.outputMatrix(V.dot(sig).dot(V.T))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:15:01:58] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:15:01:59] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 115, in svd
+    body += pyth.outputMatrix(V.dot(sig).dot(V.T))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:15:01:59] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:15:03:06] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 115, in svd
+    body += pyth.outputMatrix(sig.dot(V.T.dot(test)))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:15:03:06] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+[25/Jun/2018:15:03:07] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 115, in svd
+    body += pyth.outputMatrix(sig.dot(V.T.dot(test)))
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 38, in outputMatrix
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:15:03:07] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+[25/Jun/2018:16:55:19] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 116, in svd
+    body += pyth.textMat(V.dot(np.diag(sig)).dot(V.T).dot(test), "U*sigma*U**t: ")
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 85, in textMat
+    </div>""" % lin
+NameError: name 'lin' is not defined
+[25/Jun/2018:16:55:19] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[25/Jun/2018:16:55:20] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 116, in svd
+    body += pyth.textMat(V.dot(np.diag(sig)).dot(V.T).dot(test), "U*sigma*U**t: ")
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 85, in textMat
+    </div>""" % lin
+NameError: name 'lin' is not defined
+[25/Jun/2018:16:55:20] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CACHE-CONTROL: max-age=0
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[25/Jun/2018:16:59:33] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 83, in svd
+    sig2, U = np.linalg.eig(tmpmat.T.dot(tmpmat.T))
+ValueError: shapes (4,3) and (4,3) not aligned: 3 (dim 1) != 4 (dim 0)
+[25/Jun/2018:16:59:33] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Remote-Addr: 127.0.0.1
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+[25/Jun/2018:17:22:57] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 94, in svd
+    body += pyth.textMat(np.diag(sig1), "Sigma1: ")
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:17:22:57] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[25/Jun/2018:17:24:07] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:17:24:07] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 85, in svd
+    array = np.argsort(sig1, order="desc")
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 940, in argsort
+    return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 52, in _wrapfunc
+    return getattr(obj, method)(*args, **kwds)
+ValueError: Cannot specify order when the array has no fields.
+[25/Jun/2018:17:24:08] HTTP 
+Request Headers:
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:17:24:08] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 85, in svd
+    array = np.argsort(sig1, order="desc")
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 940, in argsort
+    return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 52, in _wrapfunc
+    return getattr(obj, method)(*args, **kwds)
+ValueError: Cannot specify order when the array has no fields.
+[25/Jun/2018:17:27:09] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 85, in svd
+    array = np.argsort(sig1, order="desc")[::-1]
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 940, in argsort
+    return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 52, in _wrapfunc
+    return getattr(obj, method)(*args, **kwds)
+ValueError: Cannot specify order when the array has no fields.
+[25/Jun/2018:17:27:09] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+[25/Jun/2018:17:27:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 85, in svd
+    array = np.argsort(sig1, order="desc")[::-1]
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 940, in argsort
+    return _wrapfunc(a, 'argsort', axis=axis, kind=kind, order=order)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 52, in _wrapfunc
+    return getattr(obj, method)(*args, **kwds)
+ValueError: Cannot specify order when the array has no fields.
+[25/Jun/2018:17:27:10] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+[25/Jun/2018:17:59:33] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+[25/Jun/2018:17:59:33] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 90, in svd
+    sigma[:manja, :manja] = np.sqrt(sig1[:manja, :manja])
+IndexError: too many indices for array
+[25/Jun/2018:18:00:10] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CACHE-CONTROL: max-age=0
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[25/Jun/2018:18:00:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 99, in svd
+    body += pyth.textMat(np.diag(sigma), "Sigma: ")
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:00:10] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CACHE-CONTROL: max-age=0
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[25/Jun/2018:18:00:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 99, in svd
+    body += pyth.textMat(np.diag(sigma), "Sigma: ")
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:10:16] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 87, in svd
+    sig2, V = sig2[array2], U[:,array2]
+IndexError: index 3 is out of bounds for axis 1 with size 3
+[25/Jun/2018:18:10:16] HTTP 
+Request Headers:
+  CACHE-CONTROL: max-age=0
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  UPGRADE-INSECURE-REQUESTS: 1
+[25/Jun/2018:18:15:17] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:18:15:17] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 110, in svd
+    body += pyth.textMat(tmpmat.T.dot(tmpmat).dot(test), "M*t: ")
+ValueError: shapes (4,4) and (3,1) not aligned: 4 (dim 1) != 3 (dim 0)
+[25/Jun/2018:18:15:19] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:18:15:19] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 110, in svd
+    body += pyth.textMat(tmpmat.T.dot(tmpmat).dot(test), "M*t: ")
+ValueError: shapes (4,4) and (3,1) not aligned: 4 (dim 1) != 3 (dim 0)
+[25/Jun/2018:18:15:28] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:18:15:28] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 110, in svd
+    body += pyth.textMat(tmpmat.T.dot(tmpmat).dot(test), "M*t: ")
+ValueError: shapes (4,4) and (3,1) not aligned: 4 (dim 1) != 3 (dim 0)
+[25/Jun/2018:18:15:29] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[25/Jun/2018:18:15:29] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 110, in svd
+    body += pyth.textMat(tmpmat.T.dot(tmpmat).dot(test), "M*t: ")
+ValueError: shapes (4,4) and (3,1) not aligned: 4 (dim 1) != 3 (dim 0)
+[25/Jun/2018:18:15:34] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/matrix?n=3&m=4
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Remote-Addr: 127.0.0.1
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[25/Jun/2018:18:15:34] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 110, in svd
+    body += pyth.textMat(tmpmat.T.dot(tmpmat).dot(test), "M*t: ")
+ValueError: shapes (4,4) and (3,1) not aligned: 4 (dim 1) != 3 (dim 0)
+[25/Jun/2018:18:31:09] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+[25/Jun/2018:18:31:09] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 111, in svd
+    body += pyth.textMat(tmpmat.T.dot(tmpmat).dot(test), "M*t: ")
+ValueError: shapes (5,5) and (4,1) not aligned: 5 (dim 1) != 4 (dim 0)
+[25/Jun/2018:18:46:23] HTTP 
+Request Headers:
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+[25/Jun/2018:18:46:23] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 95, in svd
+    body += pyth.textMat(tmpmat.dot(U[:,i]), "%s, a)" % i)
+ValueError: shapes (4,5) and (4,) not aligned: 5 (dim 1) != 4 (dim 0)
+[25/Jun/2018:18:46:24] HTTP 
+Request Headers:
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CACHE-CONTROL: max-age=0
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+[25/Jun/2018:18:46:24] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 95, in svd
+    body += pyth.textMat(tmpmat.dot(U[:,i]), "%s, a)" % i)
+ValueError: shapes (4,5) and (4,) not aligned: 5 (dim 1) != 4 (dim 0)
+[25/Jun/2018:18:47:16] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  CONNECTION: keep-alive
+[25/Jun/2018:18:47:16] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 95, in svd
+    body += pyth.textMat(tmpmat.T.dot(U[:,i]), "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:47:17] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  CONNECTION: keep-alive
+[25/Jun/2018:18:47:17] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 95, in svd
+    body += pyth.textMat(tmpmat.T.dot(U[:,i]), "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:14] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:14] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:18:48:14] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:14] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:18:48:15] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:15] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:18:48:16] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:16] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:18:48:16] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:16] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:18:48:22] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:22] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:18:48:22] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:22] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[25/Jun/2018:18:48:23] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    body += pyth.textMat(V[:,i]*sigma[i,i], "%s, a)" % i)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[25/Jun/2018:18:48:23] HTTP 
+Request Headers:
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/matrix?n=4&m=5
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+[26/Jun/2018:02:04:16] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+[26/Jun/2018:02:04:16] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 94, in svd
+    body += pyth.textMat(np.diag(tmpmat.dot(V).T.dot(U.dot(sigma))) < 0, "asdfa ")
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/pytohtml.py", line 70, in textMat
+    m,n = a.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[26/Jun/2018:02:06:51] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    V[:,krive] *= -1
+IndexError: too many indices for array
+[26/Jun/2018:02:06:51] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+[26/Jun/2018:02:06:52] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 96, in svd
+    V[:,krive] *= -1
+IndexError: too many indices for array
+[26/Jun/2018:02:06:52] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+[26/Jun/2018:02:07:12] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 97, in svd
+    V[:,krive] *= -1
+IndexError: too many indices for array
+[26/Jun/2018:02:07:12] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+[26/Jun/2018:02:07:27] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 97, in svd
+    V[:,krive] *= -1
+IndexError: too many indices for array
+[26/Jun/2018:02:07:27] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CONNECTION: keep-alive
+  CACHE-CONTROL: max-age=0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+[26/Jun/2018:15:09:12] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+[26/Jun/2018:15:09:12] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 79, in svd
+    U, sigma, V = me.svdecomposition(matrica)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 41, in svdecomposition
+    n,m = mat.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[26/Jun/2018:15:09:16] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+[26/Jun/2018:15:09:16] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 79, in svd
+    U, sigma, V = me.svdecomposition(matrica)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 41, in svdecomposition
+    n,m = mat.shape
+ValueError: not enough values to unpack (expected 2, got 1)
+[27/Jun/2018:10:09:32] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 114, in picturesvd
+    U, sigma, V = me.svdecomposition(picfile)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 41, in svdecomposition
+    n,m = mat.shape
+AttributeError: 'Part' object has no attribute 'shape'
+[27/Jun/2018:10:09:32] HTTP 
+Request Headers:
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/
+  Content-Type: multipart/form-data; boundary=---------------------------63000908513756552921115985013
+  Content-Length: 341
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+[27/Jun/2018:10:10:14] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 341
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  REFERER: http://localhost:8080/matsvd/
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
+  Content-Type: multipart/form-data; boundary=---------------------------63000908513756552921115985013
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+[27/Jun/2018:10:10:14] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 264, in __call__
+    ct.params['charset'] = self.find_acceptable_charset()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 173, in find_acceptable_charset
+    if encoder(self.default_encoding):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 114, in encode_string
+    for chunk in self.body:
+TypeError: 'bool' object is not iterable
+[27/Jun/2018:10:10:48] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  Content-Length: 341
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Content-Type: multipart/form-data; boundary=---------------------------35854599216516450462015383873
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/
+[27/Jun/2018:10:10:48] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 264, in __call__
+    ct.params['charset'] = self.find_acceptable_charset()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 173, in find_acceptable_charset
+    if encoder(self.default_encoding):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 114, in encode_string
+    for chunk in self.body:
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/__init__.py", line 64, in __next__
+    chunk = self.input.read(self.chunkSize)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 482, in read
+    return self.fp.read(size, fp_out)
+AttributeError: 'int' object has no attribute 'fp'
+[27/Jun/2018:10:11:21] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 116, in picturesvd
+    U, sigma, V = me.svdecomposition(picfile)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/mathExtra.py", line 41, in svdecomposition
+    n,m = mat.shape
+AttributeError: 'Part' object has no attribute 'shape'
+[27/Jun/2018:10:11:21] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  Remote-Addr: 127.0.0.1
+  REFERER: http://localhost:8080/matsvd/
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Content-Length: 338
+  Content-Type: multipart/form-data; boundary=---------------------------6979784409272206471712838682
+  ACCEPT-ENCODING: gzip, deflate
+[27/Jun/2018:10:14:19] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 683, in _do_respond
+    self.body.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 986, in process
+    super(RequestBody, self).process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 563, in process
+    proc(self)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 226, in process_multipart_form_data
+    process_multipart(entity)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 218, in process_multipart
+    part.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 561, in process
+    self.default_proc()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 721, in default_proc
+    self.file = self.read_into_file()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 736, in read_into_file
+    self.read_lines_to_boundary(fp_out=fp_out)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 675, in read_lines_to_boundary
+    raise EOFError('Illegal end of multipart body.')
+EOFError: Illegal end of multipart body.
+[27/Jun/2018:10:14:19] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/
+  ACCEPT-ENCODING: gzip, deflate
+  Content-Length: 274
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CACHE-CONTROL: max-age=0
+  CONNECTION: keep-alive
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Content-Type: multipart/form-data; boundary=---------------------------9017360441925750117993473269
+[27/Jun/2018:10:16:45] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 118, in picturesvd
+    cv2.imread(picfile.file)
+TypeError: bad argument type for built-in operation
+[27/Jun/2018:10:16:45] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Content-Type: multipart/form-data; boundary=---------------------------97231251920402194961493309374
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  Content-Length: 43068
+  REFERER: http://localhost:8080/matsvd/
+  Remote-Addr: 127.0.0.1
+[27/Jun/2018:10:20:40] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  Content-Type: multipart/form-data; boundary=---------------------------97231251920402194961493309374
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  REFERER: http://localhost:8080/matsvd/
+  ACCEPT-ENCODING: gzip, deflate
+  Content-Length: 276
+  CACHE-CONTROL: max-age=0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+[27/Jun/2018:10:20:40] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 683, in _do_respond
+    self.body.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 986, in process
+    super(RequestBody, self).process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 563, in process
+    proc(self)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 226, in process_multipart_form_data
+    process_multipart(entity)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 218, in process_multipart
+    part.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 561, in process
+    self.default_proc()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 721, in default_proc
+    self.file = self.read_into_file()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 736, in read_into_file
+    self.read_lines_to_boundary(fp_out=fp_out)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 675, in read_lines_to_boundary
+    raise EOFError('Illegal end of multipart body.')
+EOFError: Illegal end of multipart body.
+[27/Jun/2018:10:20:48] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  Content-Type: multipart/form-data; boundary=---------------------------17688899311403956877262439047
+  UPGRADE-INSECURE-REQUESTS: 1
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Content-Length: 43068
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/
+[27/Jun/2018:10:20:48] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 117, in picturesvd
+    img = cv2.imdecode(npimg, cv2.CV_LOAD_IMAGE_UNCHANGED)
+AttributeError: module 'cv2.cv2' has no attribute 'CV_LOAD_IMAGE_UNCHANGED'
+[27/Jun/2018:10:22:20] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 683, in _do_respond
+    self.body.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 986, in process
+    super(RequestBody, self).process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 563, in process
+    proc(self)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 226, in process_multipart_form_data
+    process_multipart(entity)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 218, in process_multipart
+    part.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 561, in process
+    self.default_proc()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 721, in default_proc
+    self.file = self.read_into_file()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 736, in read_into_file
+    self.read_lines_to_boundary(fp_out=fp_out)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 675, in read_lines_to_boundary
+    raise EOFError('Illegal end of multipart body.')
+EOFError: Illegal end of multipart body.
+[27/Jun/2018:10:22:20] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  Content-Type: multipart/form-data; boundary=---------------------------17688899311403956877262439047
+  Content-Length: 276
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  REFERER: http://localhost:8080/matsvd/
+  CACHE-CONTROL: max-age=0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+[27/Jun/2018:11:30:48] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 683, in _do_respond
+    self.body.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 986, in process
+    super(RequestBody, self).process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 563, in process
+    proc(self)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 226, in process_multipart_form_data
+    process_multipart(entity)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 218, in process_multipart
+    part.process()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 561, in process
+    self.default_proc()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 721, in default_proc
+    self.file = self.read_into_file()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 736, in read_into_file
+    self.read_lines_to_boundary(fp_out=fp_out)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpreqbody.py", line 675, in read_lines_to_boundary
+    raise EOFError('Illegal end of multipart body.')
+EOFError: Illegal end of multipart body.
+[27/Jun/2018:11:30:48] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Content-Type: multipart/form-data; boundary=---------------------------194804866071108761180168875
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/matsvd/
+  CACHE-CONTROL: max-age=0
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Content-Length: 272
+[27/Jun/2018:11:33:05] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 264, in __call__
+    ct.params['charset'] = self.find_acceptable_charset()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 173, in find_acceptable_charset
+    if encoder(self.default_encoding):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 114, in encode_string
+    for chunk in self.body:
+TypeError: 'numpy.uint8' object is not iterable
+[27/Jun/2018:11:33:05] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Remote-Addr: 127.0.0.1
+  Content-Type: multipart/form-data; boundary=---------------------------2144220066990497791937782063
+  REFERER: http://localhost:8080/matsvd/
+  Content-Length: 43065
+[27/Jun/2018:11:33:34] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  CONNECTION: keep-alive
+  Content-Type: multipart/form-data; boundary=---------------------------140926377818757834778760029
+  ACCEPT-ENCODING: gzip, deflate
+  Remote-Addr: 127.0.0.1
+  REFERER: http://localhost:8080/matsvd/
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Content-Length: 43062
+[27/Jun/2018:11:33:34] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 125, in picturesvd
+    return max(img)
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+[27/Jun/2018:11:33:45] HTTP 
+Request Headers:
+  Content-Type: multipart/form-data; boundary=---------------------------136836769614807315491806518818
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  HOST: localhost:8080
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Remote-Addr: 127.0.0.1
+  REFERER: http://localhost:8080/matsvd/
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT-ENCODING: gzip, deflate
+  Content-Length: 43071
+[27/Jun/2018:11:33:45] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk 777 is not of type 'bytes'.
+[27/Jun/2018:11:34:54] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk 42728 is not of type 'bytes'.
+[27/Jun/2018:11:34:54] HTTP 
+Request Headers:
+  Content-Type: multipart/form-data; boundary=---------------------------4968589818211320981484669772
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  REFERER: http://localhost:8080/matsvd/
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Content-Length: 43065
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  CONNECTION: keep-alive
+[27/Jun/2018:11:35:16] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk 42728 is not of type 'bytes'.
+[27/Jun/2018:11:35:16] HTTP 
+Request Headers:
+  Content-Type: multipart/form-data; boundary=---------------------------7001729542392470931244264477
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Content-Length: 43065
+  ACCEPT-ENCODING: gzip, deflate
+[27/Jun/2018:11:35:51] HTTP 
+Request Headers:
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  REFERER: http://localhost:8080/matsvd/
+  Content-Length: 43065
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  Content-Type: multipart/form-data; boundary=---------------------------1507346159940815979941228798
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+[27/Jun/2018:11:35:51] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 264, in __call__
+    ct.params['charset'] = self.find_acceptable_charset()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 173, in find_acceptable_charset
+    if encoder(self.default_encoding):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 114, in encode_string
+    for chunk in self.body:
+TypeError: 'type' object is not iterable
+[27/Jun/2018:11:36:10] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT-ENCODING: gzip, deflate
+  Content-Length: 43068
+  Content-Type: multipart/form-data; boundary=---------------------------15935296066109149821687964823
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  REFERER: http://localhost:8080/matsvd/
+  HOST: localhost:8080
+[27/Jun/2018:11:36:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 264, in __call__
+    ct.params['charset'] = self.find_acceptable_charset()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 173, in find_acceptable_charset
+    if encoder(self.default_encoding):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 114, in encode_string
+    for chunk in self.body:
+TypeError: 'type' object is not iterable
+[27/Jun/2018:11:36:29] HTTP 
+Request Headers:
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  Content-Type: multipart/form-data; boundary=---------------------------8815902659989089981902386829
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  UPGRADE-INSECURE-REQUESTS: 1
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/
+  Content-Length: 43065
+[27/Jun/2018:11:36:29] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 695, in _do_respond
+    response.finalize()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 937, in finalize
+    content = self.collapse_body()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 901, in collapse_body
+    repr(chunk))
+TypeError: Chunk array([[255, 255, 255],
+       [255, 255, 255],
+       [255, 255, 255],
+       ...,
+       [255, 255, 255],
+       [255, 255, 255],
+       [255, 255, 255]], dtype=uint8) is not of type 'bytes'.
+[27/Jun/2018:12:09:26] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 131, in picturesvd
+    sigma = sigma[sigma>threshold]
+TypeError: unorderable types: numpy.ndarray() > str()
+[27/Jun/2018:12:09:26] HTTP 
+Request Headers:
+  Content-Length: 43068
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  UPGRADE-INSECURE-REQUESTS: 1
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+  Content-Type: multipart/form-data; boundary=---------------------------18250310575956262621999840513
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/
+  Remote-Addr: 127.0.0.1
+[27/Jun/2018:12:10:07] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 135, in picturesvd
+    recons = U.dot(np.diagonal(sigma)).dot(V.T)
+  File "/usr/local/lib/python3.5/dist-packages/numpy/core/fromnumeric.py", line 1361, in diagonal
+    return asanyarray(a).diagonal(offset=offset, axis1=axis1, axis2=axis2)
+ValueError: diag requires an array of at least two dimensions
+[27/Jun/2018:12:10:07] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  CONNECTION: keep-alive
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/
+  ACCEPT-ENCODING: gzip, deflate
+  UPGRADE-INSECURE-REQUESTS: 1
+  Remote-Addr: 127.0.0.1
+  HOST: localhost:8080
+  Content-Length: 43068
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Content-Type: multipart/form-data; boundary=---------------------------8512658641120415414910372924
+[27/Jun/2018:12:11:04] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  REFERER: http://localhost:8080/matsvd/
+  Content-Type: multipart/form-data; boundary=---------------------------164047327813709872671829150
+  CONNECTION: keep-alive
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  ACCEPT-ENCODING: gzip, deflate
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  Remote-Addr: 127.0.0.1
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Content-Length: 43065
+  HOST: localhost:8080
+  UPGRADE-INSECURE-REQUESTS: 1
+[27/Jun/2018:12:11:04] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 138, in picturesvd
+    cv2.imwrite('../static/img/rekonstruirana.png', recons)
+TypeError: img data type = 15 is not supported
+[27/Jun/2018:12:37:10] HTTP 
+Request Headers:
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  ACCEPT-ENCODING: gzip, deflate
+  HOST: localhost:8080
+  REFERER: http://localhost:8080/matsvd/
+  Remote-Addr: 127.0.0.1
+  UPGRADE-INSECURE-REQUESTS: 1
+  Content-Length: 43069
+  CONNECTION: keep-alive
+  Content-Type: multipart/form-data; boundary=---------------------------1455811751145898923650498276
+[27/Jun/2018:12:37:10] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 129, in picturesvd
+    maxdim = min(sigma.shape)
+UnboundLocalError: local variable 'sigma' referenced before assignment
+[27/Jun/2018:12:37:37] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 147, in picturesvd
+    """ % (maxdim, newdim. maxdim-newdim)
+AttributeError: 'int' object has no attribute 'maxdim'
+[27/Jun/2018:12:37:37] HTTP 
+Request Headers:
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  Content-Type: multipart/form-data; boundary=---------------------------2187010271786372201787597002
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  CONNECTION: keep-alive
+  Content-Length: 43069
+  REFERER: http://localhost:8080/matsvd/
+  HOST: localhost:8080
+  ACCEPT-ENCODING: gzip, deflate
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  UPGRADE-INSECURE-REQUESTS: 1
+[27/Jun/2018:13:11:46] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 126, in picturesvd
+    sigma = sigma[sigma>float(threshold)]
+ValueError: could not convert string to float: 
+[27/Jun/2018:13:11:46] HTTP 
+Request Headers:
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  HOST: localhost:8080
+  Content-Type: multipart/form-data; boundary=---------------------------106304353914189647892067144010
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  UPGRADE-INSECURE-REQUESTS: 1
+  Remote-Addr: 127.0.0.1
+  Content-Length: 103568
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/
+  ACCEPT-ENCODING: gzip, deflate
+  CONNECTION: keep-alive
+[28/Jun/2018:13:51:29] HTTP 
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 631, in respond
+    self._do_respond(path_info)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cprequest.py", line 690, in _do_respond
+    response.body = self.handler()
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/lib/encoding.py", line 221, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/usr/local/lib/python3.5/dist-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/home/alion/Projekti/cherrypyTest/testinjola/python/matsvd.py", line 128, in picturesvd
+    sigma = sigma[sigma>float(threshold)]
+ValueError: could not convert string to float: 
+[28/Jun/2018:13:51:29] HTTP 
+Request Headers:
+  UPGRADE-INSECURE-REQUESTS: 1
+  Content-Type: multipart/form-data; boundary=---------------------------13871033312200083082029903333
+  ACCEPT-LANGUAGE: en-GB,en;q=0.5
+  REFERER: http://localhost:8080/matsvd/
+  HOST: localhost:8080
+  ACCEPT: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+  COOKIE: csrftoken=BpbjCbrMiacu92RJ5faBwAmuvg4EiE8pav26qJILE7J7jHcBE7NGF3XdvM4ePoHo
+  Content-Length: 297160
+  CONNECTION: keep-alive
+  USER-AGENT: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+  Remote-Addr: 127.0.0.1
+  ACCEPT-ENCODING: gzip, deflate
